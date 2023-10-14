@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".InsertFragment">
 
     <EditText
@@ -10,12 +11,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:hint="Name"
         android:layout_marginHorizontal="10dp"
         android:layout_marginTop="50dp"/>
 
     <EditText
         android:id="@+id/edt_description"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edt_title"
